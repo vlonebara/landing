@@ -1,33 +1,33 @@
 @font-face {
-	font-family: 'Avenir Bold';
-	src: url('fonts/AvenirNextCyr-Bold.eot');
-	src: url('fonts/AvenirNextCyr-Bold.eot?#iefix') format('embedded-opentype'),
-		url('fonts/AvenirNextCyr-Bold.woff') format('woff'),
-		url('fonts/AvenirNextCyr-Bold.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+  font-family: "Avenir Bold";
+  src: url("fonts/AvenirNextCyr-Bold.eot");
+  src: url("fonts/AvenirNextCyr-Bold.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AvenirNextCyr-Bold.woff") format("woff"),
+    url("fonts/AvenirNextCyr-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Avenir Regular';
-	src: url('fonts/AvenirNextCyr-Regular.eot');
-	src: url('fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'),
-		url('fonts/AvenirNextCyr-Regular.woff') format('woff'),
-		url('fonts/AvenirNextCyr-Regular.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+  font-family: "Avenir Regular";
+  src: url("fonts/AvenirNextCyr-Regular.eot");
+  src: url("fonts/AvenirNextCyr-Regular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/AvenirNextCyr-Regular.woff") format("woff"),
+    url("fonts/AvenirNextCyr-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
 
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-	-moz-text-size-adjust: none;
-	-webkit-text-size-adjust: none;
-	text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 body,
@@ -40,17 +40,17 @@ figure,
 blockquote,
 dl,
 dd {
-	margin: 0;
+  margin: 0;
 }
 
-ul[role='list'],
-ol[role='list'] {
-	list-style: none;
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
 }
 
 body {
-	min-height: 100vh;
-	line-height: 1.5;
+  min-height: 100vh;
+  line-height: 1.5;
 }
 
 h1,
@@ -60,157 +60,193 @@ h4,
 button,
 input,
 label {
-	line-height: 1.1;
+  line-height: 1.1;
 }
 
 h1,
 h2,
 h3,
 h4 {
-	text-wrap: balance;
+  text-wrap: balance;
 }
 
 a:not([class]) {
-	text-decoration-skip-ink: auto;
-	color: currentColor;
+  text-decoration-skip-ink: auto;
+  color: currentColor;
 }
 
 img,
 picture {
-	max-width: 100%;
-	display: block;
+  max-width: 100%;
+  display: block;
 }
 
 input,
 button,
 textarea,
 select {
-	font: inherit;
+  font: inherit;
 }
 
 textarea:not([rows]) {
-	min-height: 10em;
+  min-height: 10em;
+}
+
+header {
+  margin-bottom: 200px;
 }
 
 :target {
-	scroll-margin-block: 5ex;
+  scroll-margin-block: 5ex;
 }
 
 .img-wrapper {
-	height: 518px;
-	width: 547px;
+  height: 518px;
+  width: 547px;
 }
 
 .img-wrapper div {
-	height: 384px;
-	width: 322px;
+  height: 384px;
+  width: 322px;
 }
 
 .wrapper {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .header-wrapper {
-	display: flex;
-	justify-content: center;
-	padding-top: 60px;
-	padding-left: 65px;
-	padding-right: 65px;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  padding-left: 65px;
+  padding-right: 65px;
 }
 
 .header-content {
-	width: 637px;
-	height: 414px;
-	margin-right: 126px;
+  width: 637px;
+  height: 414px;
+  margin-right: 126px;
 }
 
 .title {
-	font-size: 72px;
-	font-family: 'Avenir Bold';
-	line-height: 88px;
-	color: #252525;
+  font-size: 72px;
+  font-family: "Avenir Bold";
+  line-height: 88px;
+  color: #252525;
 }
 
 .description-wrapper {
-	margin-top: 32px;
-	margin-bottom: 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .description {
-	font-size: 26px;
-	font-family: 'Avenir Regular';
-	color: #252525;
+  font-size: 26px;
+  font-family: "Avenir Regular";
+  color: #252525;
 }
 
 .explore-wrapper {
-	width: 182px;
-	height: 66px;
-	background: #252525;
-	border-radius: 36px;
-	text-align: center;
+  width: 182px;
+  height: 66px;
+  background: #252525;
+  border-radius: 36px;
+  text-align: center;
 }
 
 .explore-link {
-	font-family: 'Avenir Regular';
-	font-size: 24px;
-	text-decoration: none;
-	color: #ffff;
-	line-height: 60px;
+  font-family: "Avenir Regular";
+  font-size: 24px;
+  text-decoration: none;
+  color: #ffff;
+  line-height: 60px;
 }
 
 .img-1 {
-	background: url('img/1.png');
-	position: absolute;
+  background: url("img/1.png");
+  position: absolute;
 }
 
 .img-2 {
-	background: url('img/2.png');
-	position: absolute;
-	z-index: 999;
-	margin-left: 150px;
-	margin-top: 200px;
+  background: url("img/2.png");
+  position: absolute;
+  z-index: 999;
+  margin-left: 150px;
+  margin-top: 150px;
 }
 
 .main-wrapper {
-	margin-left: 64px;
-	margin-right: 64px;
-	display: flex;
-	justify-content: center;
+  margin-left: 64px;
+  margin-right: 64px;
+  display: flex;
+  justify-content: center;
 }
 
 .list {
-	width: 1312px;
-	height: 335px;
-	background: #252525;
-	border-radius: 40px;
-	/* margin-bottom: 20px; */
-	padding-left: 64px;
-	padding-right: 64px;
-	justify-content: space-around;
+  width: 1312px;
+  height: 335px;
+  background: #252525;
+  border-radius: 40px;
+  margin-bottom: 20px;
+  padding-left: 64px;
+  padding-right: 64px;
+  justify-content: space-around;
 }
 
 .cards {
-	display: flex;
-	margin-block: 118px;
-	justify-content: space-around;
+  display: flex;
+  margin-block: 118px;
+  justify-content: space-around;
 }
 
 .card {
-	height: 80px;
-	width: 316px;
+  height: 80px;
+  width: 316px;
 }
 
 .card h2 {
-	font-family: 'Avenir Regular';
-	font-size: 32px;
-	color: #ffffffd8;
-	margin-bottom: 24px;
+  font-family: "Avenir Regular";
+  font-size: 32px;
+  color: #ffffffd8;
+  margin-bottom: 24px;
 }
 
 .card p {
-	font-family: 'Avenir Regular';
-	font-size: 24px;
-	color: #ffffff;
+  font-family: "Avenir Regular";
+  font-size: 24px;
+  color: #ffffff;
+}
+
+@media (max-width: 480px) {
+  .img-wrapper div {
+    display: none;
+  }
+
+  .wrapper {
+	width: 100%;
+  }
+
+  .title {
+	font-size: 50px;
+  }
+
+  .header-content {
+	margin-bottom: 200px;
+	margin-left: 100px;
+  }
+
+  .list {
+	width: 350px;
+	height: 900px;
+  }
+
+  .cards{
+	flex-direction: column;
+  }
+
+  .card {
+	margin-bottom: 200px;
+  }
 }
